@@ -12,11 +12,11 @@ def FuncNumOrange():
     return NumOrange
 
 def FuncApplePrice(FinalNumAppleF):
-    PriceApple = FinalNumApple * 20
+    PriceApple = FinalNumAppleF * 20
     return PriceApple
 
 def FuncOrangePrice(FinalNumOrangeF):
-    PriceOrange = FinalNumOrange * 25
+    PriceOrange = FinalNumOrangeF * 25
     return PriceOrange
 
 def FuncTotalPrice(FinalPriceAppleF, FinalPriceOrangeF): 
