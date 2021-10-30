@@ -1,7 +1,10 @@
-"""Create a program that will ask how many apples and oranges you want
+"""PROG 2: 
+Create a program that will ask how many apples and oranges you want
 to buy. Display the total amount you need to pay if apple price is 
 20 pesos and orange is 25. Display the output in the following format.
 The total amount is ______."""
+
+#Prog2 - 1st try
 
 def FuncNumApple():
     NumApple = int(input("How many APPLES would you like to buy?  "))
@@ -12,11 +15,11 @@ def FuncNumOrange():
     return NumOrange
 
 def FuncApplePrice(FinalNumAppleF):
-    PriceApple = FinalNumApple * 20
+    PriceApple = FinalNumAppleF * 20
     return PriceApple
 
 def FuncOrangePrice(FinalNumOrangeF):
-    PriceOrange = FinalNumOrange * 25
+    PriceOrange = FinalNumOrangeF * 25
     return PriceOrange
 
 def FuncTotalPrice(FinalPriceAppleF, FinalPriceOrangeF): 
